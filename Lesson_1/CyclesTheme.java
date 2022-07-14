@@ -117,6 +117,20 @@ public class CyclesTheme {
         //     }
         // } while (num6 <= 3);
         
+        System.out.println("\n 9. Определение, является ли число счастливым");
+        int num = 123451;
+        int digit;
+        int abc = 0;
+        int def = 0;
+        for(int i = 0; i < 6; i++) {
+            digit = num % 10;
+            num = num/10;
+            if(i >= 3) {
+                abc += digit;
+            } else {
+                def += digit;
+            }
+        }
 
         // System.out.println("\n 8. Проверка, является ли число палиндромом");
         // int num7 = 1234321;
@@ -147,7 +161,6 @@ public class CyclesTheme {
         }
     }
 }
-
 
 
 
