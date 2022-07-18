@@ -93,43 +93,43 @@ public class CyclesTheme {
             System.out.print('\n');
             num4 --;
         
-        int num6 = 1;
-        int z;
-        boolean flag = true;
-        do {
-            z = num6;
-            do {
-                System.out.print(" $");
-                z --;
-            } while (z > 0);
-            System.out.print("\n");
-            if (flag) {
-                num6 ++;
-            } else {
-                num6 --;
-            }
-            if (num6 == 3) {
-                flag = false;
-            }
-            if (num6 == 0) {
-                break;
-            }
-        } while (num6 <= 3);
+        // int num6 = 1;
+        // int z;
+        // boolean flag = true;
+        // do {
+        //     z = num6;
+        //     do {
+        //         System.out.print(" $");
+        //         z --;
+        //     } while (z > 0);
+        //     System.out.print("\n");
+        //     if (flag) {
+        //         num6 ++;
+        //     } else {
+        //         num6 --;
+        //     }
+        //     if (num6 == 3) {
+        //         flag = false;
+        //     }
+        //     if (num6 == 0) {
+        //         break;
+        //     }
+        // } while (num6 <= 3);
         
-        System.out.println("\n 9. Определение, является ли число счастливым");
-        int num = 123451;
-        int digit;
-        int abc = 0;
-        int def = 0;
-        for(int i = 0; i < 6; i++) {
-            digit = num % 10;
-            num = num/10;
-            if(i >= 3) {
-                abc += digit;
-            } else {
-                def += digit;
-            }
-        }
+        // System.out.println("\n 9. Определение, является ли число счастливым");
+        // int num = 123451;
+        // int digit;
+        // int abc = 0;
+        // int def = 0;
+        // for(int i = 0; i < 6; i++) {
+        //     digit = num % 10;
+        //     num = num/10;
+        //     if(i >= 3) {
+        //         abc += digit;
+        //     } else {
+        //         def += digit;
+        //     }
+        // }
 
         System.out.println("\n 8. Проверка, является ли число палиндромом");
         int num7 = 1234321;
@@ -146,20 +146,22 @@ public class CyclesTheme {
         System.out.println("Числа являются палиндромами " + d);
 
         System.out.println("\n 10. Вывод таблицы умножения Пифагора");
-
-        // System.out.printf("   |");
-        // for(int y = 2; y <= 9; y++)
-        // System.out.printf("%2d ", y);
-        // System.out.printf("\n---|-----------");
-        // System.out.printf("-------------\n");
-        // for(int y = 2; y <= 9; y++){
-        // System.out.printf("%2d |", y);
-        // for(int z = 2; z <= 9; z++)
-        // System.out.printf("%2d ", y * z);
-        // System.out.printf("\n");
+        System.out.printf("   |");
+        for(int num8 = 2; num8 <= 9; num8++)
+        System.out.printf("%2d ", num8);
+        System.out.printf("\n---|-----------");
+        System.out.printf("-------------\n");
+        for(int num8 = 2; num8 <= 9; num8++){
+        System.out.printf("%2d |", num8);
+        for(int num9 = 2; num9 <= 9; num9++)
+        System.out.printf("%2d ", num8 * num9);
+        System.out.printf("\n");
         }
     }
 }
+
+
+
 
 
 
