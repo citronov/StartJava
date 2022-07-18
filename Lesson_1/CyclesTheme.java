@@ -92,7 +92,7 @@ public class CyclesTheme {
             }
             System.out.print('\n');
             num4 --;
-        
+        }
         int num6 = 1;
         int z;
         boolean flag = true;
@@ -116,7 +116,7 @@ public class CyclesTheme {
             }
         } while (num6 <= 3);
         
-        System.out.println("\n 9. Определение, является ли число счастливым");
+        System.out.println("\n 7. Определение, является ли число счастливым");
         int num = 123451;
         int digit;
         int abc = 0;
@@ -156,7 +156,6 @@ public class CyclesTheme {
         for(int num9 = 2; num9 <= 9; num9++)
         System.out.printf("%2d ", num8 * num9);
         System.out.printf("\n");
-        }
         }
     }
 }
