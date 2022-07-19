@@ -134,16 +134,16 @@ public class CyclesTheme {
         System.out.println("\n 8. Проверка, является ли число палиндромом");
         int num7 = 1234321;
         int inverseNum;
-        System.out.println("Заданное число: " + num7);
+        System.out.println(" Заданное число: " + num7);
         for (inverseNum = 0; num7 != 0; num7 /= 10){
         inverseNum = inverseNum * 10 + num7 % 10;
         }
-        System.out.println("Число в обратно порядке: " + inverseNum);
-        System.out.println("Заданное число: " + num7);
+        System.out.println(" Число в обратно порядке: " + inverseNum);
+        System.out.println(" Заданное число: " + num7);
         boolean s = true;
         boolean comparison = num7 == inverseNum;
         boolean d = s & comparison;
-        System.out.println("Числа являются палиндромами " + d);
+        System.out.println(" Числа являются палиндромами " + d);
 
         System.out.println("\n 10. Вывод таблицы умножения Пифагора");
         System.out.printf("   |");
